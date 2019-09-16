@@ -13,19 +13,29 @@
     <aura:attribute name="startPage" type="Integer"/>
     <aura:attribute name="endPage" type="Integer"/>
     <aura:attribute name="totalRecords" type="Integer"/>
-    <aura:attribute name="pageSize" type="Integer" default="4"/>
+    <aura:attribute name="pageSize" type="Integer" default="3"/>
+    <aura:attribute name="filter" type="String"/> 
 
-    <div class="slds-grid--align-center slds-wrap">
+
+    <lightning:card iconName="utility:search" title="Image Search" class="slds-size--1-of-4">
+        <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon slds-input-has-icon_left-right" role="none">
+            <lightning:input name="x" value="{!v.filter}" placeholder="Search Image by " onchange="{!c.searchImage}"/>
+            <span class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right ">
+                <lightning:icon class="slds-icon slds-icon slds-icon_small slds-icon-text-default " iconName="utility:search" size="small" alternativeText="icon" />
+            </span>
+        </div>
+    </lightning:card>
+    <div class="slds-grid--align-center slds-wrap ">
         <aura:iteration items="{!v.paginationList}" var="doc" indexVar="i">
             <div class="slds-col">
-                <img src="{!v.urlForImage + doc.Id + v.organizationId}" width="100" onclick="{!c.testik}"
-                     data-index="{!i}"/>
+                <img src="{!v.urlForImage + doc.Id + v.organizationId}" width="200" onclick="{!c.testik}"
+                     data-index="{!i}" title="{!doc.Name}"/>
             </div>
         </aura:iteration>
         <lightning:buttonGroup>
             <lightning:button label="Previous" disabled="{!v.startPage == 0}"
                               onclick="{!c.previous}" variant="brand"
-                              iconName='utility:back'/>
+                              iconPosition="left"/>
 
             <lightning:button label="Next" disabled="{!v.endPage >= v.totalRecords}"
                               onclick="{!c.next}" variant="brand"

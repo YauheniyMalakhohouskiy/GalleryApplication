@@ -20,5 +20,9 @@
 
     previous:function (component,event,helper) {
         helper.previous(component, event);
+    },
+    
+    searchImage:function (component,event,helper) {
+        helper.searchImage(component,event);
     }
 });
