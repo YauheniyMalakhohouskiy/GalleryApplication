@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplication.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplication.cmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplicationController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplicationController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplicationHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplicationHelper.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +57,7 @@
                     <map>
                       <entry key="APEXCLASS:GALLERYAPPLICATIONCONTROLLER" value="1568625424412" />
                       <entry key="AURADEFINITIONBUNDLE:FORTEST" value="1568623830477" />
-                      <entry key="AURADEFINITIONBUNDLE:GALLERYAPPLICATION" value="1568627286092" />
+                      <entry key="AURADEFINITIONBUNDLE:GALLERYAPPLICATION" value="1568629632942" />
                     </map>
                   </option>
                 </ConnectionWorkspaceSettings>
@@ -89,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.forTest.app (5)">
+  <component name="RunManager" selected="JavaScript Debug.forTest.app (4)">
     <configuration name="forTest.app (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQK8uXRVE4rjcN7pDif2YjRpq3.bwv6cPzvZVc8HJYCsBdZRLgpSPB1ftt_d4p1r5NFhMj1t1.b7FPB.Zrv2LVzj3F40W&amp;retURL=/c/forTest.app">
       <method v="2" />
     </configuration>
@@ -102,16 +103,16 @@
     <configuration name="forTest.app (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQK8uXRVE4rjcN7pDif2YjRpq3.bwv6cPzvZVc8HJYCsBdZRLgpSPB1ftt_d4p1r5NFhMj1t1.b7FPB.Zrv2LVzj3F40W&amp;retURL=/c/forTest.app">
       <method v="2" />
     </configuration>
-    <configuration name="forTest.app (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQK8uXRVE4rjcN7pDif2YjRpq3.bwv6cPzvZVc8HJYCsBdZRLgpSPB1ftt_d4p1r5NFhMj1t1.b7FPB.Zrv2LVzj3F40W&amp;retURL=/c/forTest.app">
+    <configuration name="forTest.app" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQK8uXRVE4rjcN7pDif2YjRpq3.bwv6cPzvZVc8HJYCsBdZRLgpSPB1ftt_d4p1r5NFhMj1t1.b7FPB.Zrv2LVzj3F40W&amp;retURL=/c/forTest.app">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.forTest.app (5)" />
         <item itemvalue="JavaScript Debug.forTest.app (4)" />
         <item itemvalue="JavaScript Debug.forTest.app (3)" />
         <item itemvalue="JavaScript Debug.forTest.app (2)" />
         <item itemvalue="JavaScript Debug.forTest.app (1)" />
+        <item itemvalue="JavaScript Debug.forTest.app" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +128,7 @@
       <updated>1568621476101</updated>
       <workItem from="1568621477283" duration="62000" />
       <workItem from="1568621540368" duration="61000" />
-      <workItem from="1568621602264" duration="5877000" />
+      <workItem from="1568621602264" duration="7488000" />
     </task>
     <servers />
   </component>

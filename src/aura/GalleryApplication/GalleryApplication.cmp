@@ -9,12 +9,27 @@
     <aura:attribute name="Documents" type="List"/>
     <aura:attribute name="organizationId" type="String"/>
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="paginationList" type="Document"/>
+    <aura:attribute name="startPage" type="Integer"/>
+    <aura:attribute name="endPage" type="Integer"/>
+    <aura:attribute name="totalRecords" type="Integer"/>
+    <aura:attribute name="pageSize" type="Integer" default="4"/>
 
-    <div class="slds-grid--align-center slds-wrap" >
-        <aura:iteration items="{!v.Documents}" var="doc" indexVar="i">
+    <div class="slds-grid--align-center slds-wrap">
+        <aura:iteration items="{!v.paginationList}" var="doc" indexVar="i">
             <div class="slds-col">
-                <img src="{!v.urlForImage + doc.Id + v.organizationId}" width="100" onclick="{!c.testik}" data-index="{!i}"/>
+                <img src="{!v.urlForImage + doc.Id + v.organizationId}" width="100" onclick="{!c.testik}"
+                     data-index="{!i}"/>
             </div>
         </aura:iteration>
+        <lightning:buttonGroup>
+            <lightning:button label="Previous" disabled="{!v.startPage == 0}"
+                              onclick="{!c.previous}" variant="brand"
+                              iconName='utility:back'/>
+
+            <lightning:button label="Next" disabled="{!v.endPage >= v.totalRecords}"
+                              onclick="{!c.next}" variant="brand"
+                              iconPosition='right'/>
+        </lightning:buttonGroup>
     </div>
 </aura:component>
