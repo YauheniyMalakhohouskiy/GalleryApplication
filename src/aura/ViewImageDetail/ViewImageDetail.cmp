@@ -1,0 +1,30 @@
+<!--
+ - Created by user on 16-Sep-19.
+ -->
+
+<aura:component description="ViewImageDetail" controller="ViewImageDetailController">
+    <aura:attribute name="image" type="Document"/>
+    <aura:attribute name="documents" type="List"/>
+
+    <div class="mainDiv">
+        <div class="back-ground">
+            <div class="form-to-popup">
+                <div class="slds-align-content-center">
+                    <lightning:input aura:id = "Name" name="Name" value="{!v.image.Name}"/>
+                    <lightning:buttonGroup class="slds-text-align_left">
+                        <lightning:button label="Delete"
+                                          onclick="{!c.deleteImage}" variant="brand"
+                                          iconPosition="left"/>
+
+                        <lightning:button label="Change name"
+                                          onclick="{!c.changeName}" variant="brand"
+                                          iconPosition='right'/>
+                    </lightning:buttonGroup>
+
+                </div>
+                <lightning:button onclick="{!c.close}"
+                                  label="Close"/>
+            </div>
+        </div>
+    </div>
+</aura:component>

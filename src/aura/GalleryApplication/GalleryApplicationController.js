@@ -7,11 +7,9 @@
         helper.doInit1(component,event);
     },
 
-    testik:function (component,event,helper) {
-        var target = event.target;
-        var element = component.get("v.paginationList");
-        var dataEle = target.getAttribute("data-Index");
-        alert(dataEle + element[dataEle].Name);
+    viewDetail:function (component,event,helper) {
+        helper.viewDetail(component,event);
+
     },
 
     next:function (component,event,helper) {

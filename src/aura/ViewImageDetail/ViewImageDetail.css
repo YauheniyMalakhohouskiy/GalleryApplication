@@ -1,0 +1,30 @@
+/**
+ * Created by user on 16-Sep-19.
+ */
+
+.THIS.mainDiv {
+
+}
+.THIS .back-ground{
+    z-index: 3;
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+}
+.THIS .form-to-popup{
+    width: 500px;
+    height: fit-content;
+    position: absolute;
+    background: ivory;
+    padding: 10px;
+    border-radius: 0.25rem;
+    left: calc(50% - 250px);
+    top: 20%;
+}
+.THIS .header {
+    font-size: 16px;
+    font-weight: bold;
+}

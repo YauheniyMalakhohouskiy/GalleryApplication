@@ -110,5 +110,32 @@
             }
             component.set('v.paginationList', paginationList);
         }
+    },
+
+    viewDetail:function (component,event) {
+        var document = component.get("v.Documents");
+        var target = event.target;
+        var element = component.get("v.paginationList");
+        var dataEle = target.getAttribute("data-Index");
+        $A.createComponent(
+            "c:ViewImageDetail",
+            {
+                image : element[dataEle],
+                documents:document
+            },
+            function(newComponent, status, errorMessage){
+                console.log('status:', status);
+                if (status === "SUCCESS") {
+                    var body = component.find("ViewImageDetail");
+                    body.set("v.body", newComponent);
+                }
+                else if (status === "INCOMPLETE") {
+                    console.log("No response from server or client is offline.")
+                }
+                else if (status === "ERROR") {
+                    console.log("Error: " + errorMessage);
+                }
+            }
+        );
     }
 });
