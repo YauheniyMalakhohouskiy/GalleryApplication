@@ -2,13 +2,19 @@
  - Created by user on 16-Sep-19.
  -->
 
-<aura:component description="GalleryApplication" controller="GalleryApplicationController" implements="flexipage:availableForAllPageTypes">
-    <aura:attribute name="urlForImage" type="String" default="https://onlineshop-dev-ed--c.documentforce.com/servlet/servlet.ImageServer?id="/>
+<aura:component description="GalleryApplication" controller="GalleryApplicationController"
+                implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="urlForImage" type="String"
+                    default="https://onlineshop-dev-ed--c.documentforce.com/servlet/servlet.ImageServer?id="/>
     <aura:attribute name="Documents" type="List"/>
     <aura:attribute name="organizationId" type="String"/>
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
 
-    <aura:iteration items="{!v.Documents}" var="doc">
-        <img src="{!v.urlForImage + doc.Id + v.organizationId}" width="100"/>
-    </aura:iteration>
+    <div class="slds-grid--align-center slds-wrap" >
+        <aura:iteration items="{!v.Documents}" var="doc" indexVar="i">
+            <div class="slds-col">
+                <img src="{!v.urlForImage + doc.Id + v.organizationId}" width="100" onclick="{!c.testik}" data-index="{!i}"/>
+            </div>
+        </aura:iteration>
+    </div>
 </aura:component>
