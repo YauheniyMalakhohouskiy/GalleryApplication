@@ -30,6 +30,9 @@
 
     isRefreshed: function(component, event, helper) {
         location.reload();
+    },
+    addNewImage:function (component,event,helper) {
+        helper.addNewImage(component,event);
     }
 
 });

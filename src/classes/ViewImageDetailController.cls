@@ -23,21 +23,6 @@ public with sharing class ViewImageDetailController {
         return Id.valueOf(idMy);
     }
 
-    /*public static Id saveTheFile(String fileName, String base64Data, String contentType) {
-        base64Data = EncodingUtil.urlDecode(base64Data, 'UTF-8');
-
-        Document oAttachment = new Document();
-        oAttachment.Body = EncodingUtil.base64Decode(base64Data);
-        oAttachment.Name = fileName;
-        oAttachment.IsPublic = true;
-        oAttachment.ContentType = contentType;
-        oAttachment.FolderId = '0052v00000dEbiXAAS';
-
-        insert oAttachment;
-
-        return oAttachment.Id;
-    }*/
-
     private static void appendToFile(String fileName, String idMy, String base64Data, String contentType) {
         base64Data = EncodingUtil.urlDecode(base64Data, 'UTF-8');
 

@@ -25,7 +25,7 @@
                     type="Integer"/>
     <aura:attribute name="pageSize"
                     type="Integer"
-                    default="3"/>
+                    default="5"/>
     <aura:attribute name="filter"
                     type="String"/>
     <aura:handler event="c:GalleryApplicationEvent"
@@ -33,27 +33,35 @@
     <aura:handler event="force:refreshView"
                   action="{!c.isRefreshed}"/>
 
-    <lightning:card class="slds-size--1-of-2 slds-align_absolute-center"
-                    title="Gallery Application">
-        <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon slds-input-has-icon_left-right"
+    <lightning:card class="my"
+                    title="Gallery Application" >
+        <aura:set attribute="actions">
+            <lightning:button label="Add new image"
+                              onclick="{!c.addNewImage}"
+                              variant="brand"/>
+        </aura:set>
+        <p class="slds-p-horizontal_small">
+        <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left-right slds-small-size_1-of-5"
              role="none">
             <lightning:input name="x"
                              value="{!v.filter}"
                              placeholder="Search Image by "
-                             onchange="{!c.searchImage}"/>
+                             onchange="{!c.searchImage}"
+                             maxlength="10"/>
             <span class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right ">
-                <lightning:icon class="slds-icon slds-icon slds-icon_small slds-icon-text-default "
+                <lightning:icon class="slds-icon slds-icon_small slds-icon-text-default "
                                 iconName="utility:search"
                                 size="small"
                                 alternativeText="icon"/>
             </span>
         </div>
+        </p>
     </lightning:card>
     <div class="slds-grid  slds-align-content-center slds-gutters_small">
         <aura:iteration items="{!v.paginationList}"
                         var="doc"
                         indexVar="i">
-            <div class="slds-col slds-small-size_1-of-6 ">
+            <div class="slds-col--padded slds-small-size_1-of-6 ">
                 <img src="{!v.urlForImage + doc.Id + v.organizationId}"
                      onclick="{!c.viewDetail1}"
                      data-index="{!i}"
@@ -76,4 +84,6 @@
     </lightning:buttonGroup>
     <div aura:id="ViewImageDetail"
          class="ViewImageDetail"/>
+    <div aura:id="AddNewImagePage"
+         class="AddNewImagePage"/>
 </aura:component>

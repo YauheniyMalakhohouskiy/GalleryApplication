@@ -33,6 +33,10 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="AddNewImagePageController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="CardController" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -156,6 +160,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="AddCardApp" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="AddNewImagePage" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>

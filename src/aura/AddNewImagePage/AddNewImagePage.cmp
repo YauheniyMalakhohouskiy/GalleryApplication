@@ -1,23 +1,19 @@
 <!--
- - Created by user on 16-Sep-19.
+ - Created by user on 17-Sep-19.
  -->
 
-<aura:component description="ViewImageDetail" controller="ViewImageDetailController">
-    <aura:attribute name="image"
-                    type="Document"/>
-    <aura:attribute name="documents"
-                    type="List"/>
-    <aura:registerEvent name="GalleryApplicationEvent"
-                        type="c:GalleryApplicationEvent"/>
+<aura:component description="AddNewImagePage"
+                controller="AddNewImagePageController">
     <aura:attribute name="showLoadingSpinner"
                     type="boolean"
                     default="false" />
     <aura:attribute name="fileName"
                     type="String"
                     default="No File Selected.." />
-
-
-
+    <aura:attribute name="nameImage"
+                    type="String"/>
+    <aura:registerEvent name="GalleryApplicationEvent"
+                        type="c:GalleryApplicationEvent"/>
 
     <div class="mainDiv">
         <div class="back-ground">
@@ -25,20 +21,10 @@
                 <div class="slds-align-content-center">
                     <lightning:input aura:id = "Name"
                                      name="Name"
-                                     value="{!v.image.Name}"
+                                     value="{!v.nameImage}"
                                      minlength="1"
-                                     maxlength="10" />
-                    <lightning:buttonGroup class="slds-text-align_left">
-                        <lightning:button label="Delete"
-                                          onclick="{!c.deleteImage}"
-                                          variant="brand"
-                                          iconPosition="left"/>
-
-                        <lightning:button label="Change name"
-                                          onclick="{!c.changeName}"
-                                          variant="brand"
-                                          iconPosition='right'/>
-                    </lightning:buttonGroup>
+                                     maxlength="10"
+                                     placeholder="Enter name "/>
                     <lightning:input aura:id="fileId"
                                      onchange="{!c.handleFilesChange}"
                                      type="file"
@@ -57,11 +43,9 @@
                     <br/>
                     <button class="slds-button slds-button_brand"
                             onclick="{!c.doSave}">Upload Attachment</button>
-
+                    <button class="slds-button slds-button_brand slds-float_left"
+                            onclick="{!c.close}">Close</button>
                 </div>
-
-                <lightning:button onclick="{!c.close}"
-                                  label="Close"/>
             </div>
         </div>
     </div>
