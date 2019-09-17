@@ -7,8 +7,8 @@
         helper.doInit1(component,event);
     },
 
-    viewDetail:function (component,event,helper) {
-        helper.viewDetail(component,event);
+    viewDetail1:function (component,event,helper) {
+        helper.viewDetail1(component,event);
 
     },
 
@@ -22,5 +22,14 @@
     
     searchImage:function (component,event,helper) {
         helper.searchImage(component,event);
+    },
+
+    getEvents:function (component,event,helper) {
+        $A.get('e.force:refreshView').fire();
+    },
+
+    isRefreshed: function(component, event, helper) {
+        location.reload();
     }
+
 });

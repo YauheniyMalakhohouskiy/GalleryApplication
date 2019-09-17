@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a3c42cb-7eba-4926-94e5-b1e1395dc2b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/GalleryApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GalleryApplication.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplication.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplication.cmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplicationController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplicationController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplicationHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplicationHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ViewImageDetail/ViewImageDetail.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ViewImageDetail/ViewImageDetail.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ViewImageDetail/ViewImageDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ViewImageDetail/ViewImageDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ViewImageDetail/ViewImageDetailController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ViewImageDetail/ViewImageDetailController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ViewImageDetail/ViewImageDetailHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ViewImageDetail/ViewImageDetailHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/GalleryApplicationController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/GalleryApplicationController.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/ViewImageDetailController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/ViewImageDetailController.cls" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +24,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Lightning Component" />
+        <option value="Lightning Style" />
         <option value="Apex Class" />
-        <option value="Apex Metadata" />
-        <option value="Lightning Controller" />
         <option value="Lightning Helper" />
+        <option value="Lightning Application Event" />
+        <option value="Lightning Controller" />
+        <option value="Lightning Component Event" />
+        <option value="Apex Metadata" />
       </list>
     </option>
   </component>
@@ -40,7 +50,7 @@
         <entry key="GalleryApplication">
           <value>
             <ModuleWorkspaceSettings>
-              <option name="moduleContentsLastModified" value="1568622913498" />
+              <option name="moduleContentsLastModified" value="1568670859011" />
             </ModuleWorkspaceSettings>
           </value>
         </entry>
@@ -48,6 +58,19 @@
     </option>
     <option name="projectWorkspaceSettings">
       <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="apexLogLevel" value="FINEST" />
+            <option name="calloutsLogLevel" value="ERROR" />
+            <option name="nbaLogLevel" value="ERROR" />
+            <option name="profilingLogLevel" value="ERROR" />
+            <option name="systemLogLevel" value="FINEST" />
+            <option name="validationLogLevel" value="ERROR" />
+            <option name="visualforceLogLevel" value="FINE" />
+            <option name="waveLogLevel" value="ERROR" />
+            <option name="workflowLogLevel" value="ERROR" />
+          </AnonymousApexSettings>
+        </option>
         <option name="connectionWorkspaceSettings">
           <map>
             <entry key="New Connection">
@@ -55,9 +78,13 @@
                 <ConnectionWorkspaceSettings>
                   <option name="buildSuccessDatesBySourceRootRelativePath">
                     <map>
-                      <entry key="APEXCLASS:GALLERYAPPLICATIONCONTROLLER" value="1568625424412" />
-                      <entry key="AURADEFINITIONBUNDLE:FORTEST" value="1568623830477" />
-                      <entry key="AURADEFINITIONBUNDLE:GALLERYAPPLICATION" value="1568629632942" />
+                      <entry key="APEXCLASS:GALLERYAPPLICATIONCONTROLLER" value="1568714446941" />
+                      <entry key="APEXCLASS:VIEWIMAGEDETAILCONTROLLER" value="1568719209261" />
+                      <entry key="AURADEFINITIONBUNDLE:FORTEST" value="1568672769396" />
+                      <entry key="AURADEFINITIONBUNDLE:GALLERYAPPLICATION" value="1568714620748" />
+                      <entry key="AURADEFINITIONBUNDLE:GALLERYAPPLICATIONEVENT" value="1568671935051" />
+                      <entry key="AURADEFINITIONBUNDLE:SMOTRIM" value="1568670262000" />
+                      <entry key="AURADEFINITIONBUNDLE:VIEWIMAGEDETAIL" value="1568718123349" />
                     </map>
                   </option>
                 </ConnectionWorkspaceSettings>
@@ -90,29 +117,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.forTest.app (4)">
-    <configuration name="forTest.app (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQK8uXRVE4rjcN7pDif2YjRpq3.bwv6cPzvZVc8HJYCsBdZRLgpSPB1ftt_d4p1r5NFhMj1t1.b7FPB.Zrv2LVzj3F40W&amp;retURL=/c/forTest.app">
+  <component name="RunManager" selected="JavaScript Debug.forTest.app (5)">
+    <configuration name="forTest.app (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQJrTyKeFIhyTCj.fePTY3y.aE5Lxe6Hg2mTfWAd2SjfFE9.baUWX242QkIDbbTlNs2qhRDLORqhcAxynWApWDU0DmCag&amp;retURL=/c/forTest.app">
       <method v="2" />
     </configuration>
-    <configuration name="forTest.app (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQK8uXRVE4rjcN7pDif2YjRpq3.bwv6cPzvZVc8HJYCsBdZRLgpSPB1ftt_d4p1r5NFhMj1t1.b7FPB.Zrv2LVzj3F40W&amp;retURL=/c/forTest.app">
+    <configuration name="forTest.app (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQJrTyKeFIhyTCj.fePTY3y.aE5Lxe6Hg2mTfWAd2SjfFE9.baUWX242QkIDbbTlNs2qhRDLORqhcAxynWApWDU0DmCag&amp;retURL=/c/forTest.app">
       <method v="2" />
     </configuration>
-    <configuration name="forTest.app (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQK8uXRVE4rjcN7pDif2YjRpq3.bwv6cPzvZVc8HJYCsBdZRLgpSPB1ftt_d4p1r5NFhMj1t1.b7FPB.Zrv2LVzj3F40W&amp;retURL=/c/forTest.app">
+    <configuration name="forTest.app (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQJrTyKeFIhyTCj.fePTY3y.aE5Lxe6Hg2mTfWAd2SjfFE9.baUWX242QkIDbbTlNs2qhRDLORqhcAxynWApWDU0DmCag&amp;retURL=/c/forTest.app">
       <method v="2" />
     </configuration>
-    <configuration name="forTest.app (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQK8uXRVE4rjcN7pDif2YjRpq3.bwv6cPzvZVc8HJYCsBdZRLgpSPB1ftt_d4p1r5NFhMj1t1.b7FPB.Zrv2LVzj3F40W&amp;retURL=/c/forTest.app">
+    <configuration name="forTest.app (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQJrTyKeFIhyTCj.fePTY3y.aE5Lxe6Hg2mTfWAd2SjfFE9.baUWX242QkIDbbTlNs2qhRDLORqhcAxynWApWDU0DmCag&amp;retURL=/c/forTest.app">
       <method v="2" />
     </configuration>
-    <configuration name="forTest.app" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQK8uXRVE4rjcN7pDif2YjRpq3.bwv6cPzvZVc8HJYCsBdZRLgpSPB1ftt_d4p1r5NFhMj1t1.b7FPB.Zrv2LVzj3F40W&amp;retURL=/c/forTest.app">
+    <configuration name="forTest.app (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQJrTyKeFIhyTCj.fePTY3y.aE5Lxe6Hg2mTfWAd2SjfFE9.baUWX242QkIDbbTlNs2qhRDLORqhcAxynWApWDU0DmCag&amp;retURL=/c/forTest.app">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.forTest.app (5)" />
         <item itemvalue="JavaScript Debug.forTest.app (4)" />
         <item itemvalue="JavaScript Debug.forTest.app (3)" />
         <item itemvalue="JavaScript Debug.forTest.app (2)" />
         <item itemvalue="JavaScript Debug.forTest.app (1)" />
-        <item itemvalue="JavaScript Debug.forTest.app" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +155,9 @@
       <updated>1568621476101</updated>
       <workItem from="1568621477283" duration="62000" />
       <workItem from="1568621540368" duration="61000" />
-      <workItem from="1568621602264" duration="7488000" />
+      <workItem from="1568621602264" duration="19653000" />
+      <workItem from="1568663725223" duration="15036000" />
+      <workItem from="1568707501741" duration="9646000" />
     </task>
     <servers />
   </component>

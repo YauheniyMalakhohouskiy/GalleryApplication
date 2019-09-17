@@ -112,9 +112,9 @@
         }
     },
 
-    viewDetail:function (component,event) {
+    viewDetail1:function (component,event) {
         var document = component.get("v.Documents");
-        var target = event.target;
+        var target = event.target;     
         var element = component.get("v.paginationList");
         var dataEle = target.getAttribute("data-Index");
         $A.createComponent(

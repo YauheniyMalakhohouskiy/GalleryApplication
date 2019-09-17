@@ -69,6 +69,10 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="ViewImageDetailController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="WrapperForList" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -183,10 +187,6 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="CTContactCreationEvent" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="CTContactListView" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -219,6 +219,10 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="GalleryApplicationEvent" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="OnlineShopComponent" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -240,6 +244,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="TestRegistration" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ViewImageDetail" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>

@@ -6,7 +6,15 @@ public with sharing class GalleryApplicationController {
 
     @AuraEnabled
     public static List<Document> initDocument() {
-        List<Document> documents = [SELECT Id,Name,Type FROM Document LIMIT 20];
+        List<Document> documents = [
+                SELECT
+                        Id,
+                        Name,
+                        Type,
+                        FolderId
+                FROM Document
+                LIMIT 20
+        ];
         return documents;
     }
 
