@@ -39,6 +39,7 @@
         var getchunk = fileContents.substring(startPosition, endPosition);
         var action = component.get("c.saveChunk");
         var nameImage = component.get("v.nameImage");
+        alert(encodeURIComponent(getchunk));
         if(file.type  != "image/jpeg" ||  nameImage == "") {
             component.set("v.showLoadingSpinner", false);
             component.set("v.fileName", 'Alert : Type Alert ');

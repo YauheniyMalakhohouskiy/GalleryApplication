@@ -16,7 +16,7 @@ public with sharing class ViewImageDetailController {
     }
 
     @AuraEnabled
-    public static Id saveChunk(String fileName, String idMy, String base64Data, String contentType, String fileId) {
+    public static Id saveChunk(String fileName, String idMy, String base64Data, String contentType) {
 
         appendToFile(fileName, idMy, base64Data, contentType);
 
