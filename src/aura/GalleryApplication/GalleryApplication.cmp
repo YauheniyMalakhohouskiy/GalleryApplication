@@ -33,15 +33,16 @@
     <aura:handler event="force:refreshView"
                   action="{!c.isRefreshed}"/>
 
-    <lightning:card class="my"
-                    title="Gallery Application" >
+    <lightning:card class="my slds-text-align--center"
+                    title="Gallery Application"
+                    variant="base" >
         <aura:set attribute="actions">
             <lightning:button label="Add new image"
                               onclick="{!c.addNewImage}"
                               variant="brand"/>
         </aura:set>
         <p class="slds-p-horizontal_small">
-        <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left-right slds-small-size_1-of-5"
+        <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left-right slds-small-size_1-of-5 slds-container_right"
              role="none">
             <lightning:input name="x"
                              value="{!v.filter}"
@@ -57,15 +58,15 @@
         </div>
         </p>
     </lightning:card>
-    <div class="slds-grid  slds-align-content-center slds-gutters_small">
+    <div class="slds-grid  slds-align-content-center slds-gutters_xxx-small">
         <aura:iteration items="{!v.paginationList}"
                         var="doc"
                         indexVar="i">
-            <div class="slds-col--padded slds-small-size_1-of-6 ">
+            <div class="img slds-col--padded slds-small-size_1-of-6 ">
                 <img src="{!v.urlForImage + doc.Id + v.organizationId}"
                      onclick="{!c.viewDetail1}"
                      data-index="{!i}"
-                     title="{!doc.Name}"/>
+                     title="{!doc.Name}" />
             </div>
         </aura:iteration>
     </div>

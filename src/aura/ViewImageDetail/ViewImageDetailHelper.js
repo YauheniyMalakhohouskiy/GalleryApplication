@@ -46,18 +46,25 @@
     uploadHelper: function (component, event) {
         component.set("v.showLoadingSpinner", true);
         var fileInput = component.find("fileId").get("v.files");
+        var nameImage = component.find("Name").get("v.value");
+        if(nameImage == '') {
+            component.set("v.showLoadingSpinner", false);
+            component.set("v.fileName", "Alert : No Name ");
+            return;
+        }
+
         var file = fileInput[0];
         var self = this;
         if (file.size > self.MAX_FILE_SIZE) {
             component.set("v.showLoadingSpinner", false);
-            component.set("v.fileName", 'Alert : File size cannot exceed ' + self.MAX_FILE_SIZE + ' bytes.\n' + ' Selected file size: ' + file.size);
+            component.set("v.fileName", "Alert : File size cannot exceed " + self.MAX_FILE_SIZE + " bytes.\n" + " Selected file size: " + file.size);
             return;
         }
 
         var objFileReader = new FileReader();
         objFileReader.onload = $A.getCallback(function () {
             var fileContents = objFileReader.result;
-            var base64 = 'base64,';
+            var base64 = "base64,";
             var dataStart = fileContents.indexOf(base64) + base64.length;
 
             fileContents = fileContents.substring(dataStart);
@@ -70,7 +77,7 @@
     uploadProcess: function(component, file, fileContents) {
         var startPosition = 0;
         var endPosition = Math.min(fileContents.length, startPosition + this.CHUNK_SIZE);
-        this.uploadInChunk(component, file, fileContents, startPosition, endPosition, '');
+        this.uploadInChunk(component, file, fileContents, startPosition, endPosition, "");
     },
 
     uploadInChunk: function(component, file, fileContents, startPosition, endPosition, attachId) {
@@ -78,7 +85,7 @@
         var action = component.get("c.saveChunk");
         if(file.type  != "image/jpeg") {
             component.set("v.showLoadingSpinner", false);
-            component.set("v.fileName", 'Alert : Type Alert ');
+            component.set("v.fileName", "Alert : Type Alert ");
             return;
         }
         var myImageName = component.get("v.image");
@@ -101,7 +108,7 @@
                 if (startPosition < endPosition) {
                     this.uploadInChunk(component, file, fileContents, startPosition, endPosition, attachId);
                 } else {
-                    alert('your File is uploaded successfully');
+                    alert("your File is uploaded successfully");
                     component.set("v.showLoadingSpinner", false);
                 }
             } else if (state === "INCOMPLETE") {

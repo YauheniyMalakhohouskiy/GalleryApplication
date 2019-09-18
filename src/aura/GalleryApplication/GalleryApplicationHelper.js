@@ -20,9 +20,9 @@
                     if (component.get("v.Documents").length > i)
                         paginationList.push(a.getReturnValue()[i]);
                 }
-                component.set('v.paginationList', paginationList);
+                component.set("v.paginationList", paginationList);
             } else if (state == "ERROR") {
-                alert('Error in calling server side action');
+                alert("Error in calling server side action");
             }
         });
         var orgId = component.get("c.initOrganizationId");
@@ -30,10 +30,10 @@
             var state = a.getState();
             console.log(state);
             if (state == "SUCCESS") {
-                console.log('a.getReturnValue', a.getReturnValue());
+                console.log("a.getReturnValue", a.getReturnValue());
                 component.set("v.organizationId", a.getReturnValue());
             } else if (state == "ERROR") {
-                alert('Error in calling server side action');
+                alert("Error in calling server side action");
             }
         });
         $A.enqueueAction(documents);
@@ -99,7 +99,7 @@
             if (filtereddata.length > i)
                 paginationList.push(filtereddata[i]);
         }
-        component.set('v.paginationList', paginationList);
+        component.set("v.paginationList", paginationList);
         if (searchKey == '') {
             component.set("v.totalRecords", component.get("v.Documents").length);
             component.set("v.endPage", pageSize - 1);
@@ -108,7 +108,7 @@
                 if (component.get("v.Documents").length > i)
                     paginationList.push(component.get("v.Documents")[i]);
             }
-            component.set('v.paginationList', paginationList);
+            component.set("v.paginationList", paginationList);
         }
     },
 
@@ -124,7 +124,7 @@
                 documents:document
             },
             function(newComponent, status, errorMessage){
-                console.log('status:', status);
+                console.log("status:", status);
                 if (status === "SUCCESS") {
                     var body = component.find("ViewImageDetail");
                     body.set("v.body", newComponent);
@@ -146,7 +146,7 @@
 
             },
             function(newComponent, status, errorMessage){
-                console.log('status:', status);
+                console.log("status:", status);
                 if (status === "SUCCESS") {
                     var body = component.find("AddNewImagePage");
                     body.set("v.body", newComponent);
