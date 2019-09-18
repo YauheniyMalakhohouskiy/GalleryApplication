@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a3c42cb-7eba-4926-94e5-b1e1395dc2b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/AddNewImagePage/AddNewImagePageController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/AddNewImagePage/AddNewImagePageController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/AddNewImagePage/AddNewImagePageHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/AddNewImagePage/AddNewImagePageHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplication.cmp" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplication.cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplication.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplication.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplicationController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplicationController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplicationHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/GalleryApplication/GalleryApplicationHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ViewImageDetail/ViewImageDetailController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ViewImageDetail/ViewImageDetailController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aura/ViewImageDetail/ViewImageDetailHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/aura/ViewImageDetail/ViewImageDetailHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/TestAddNewImagePageController.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/TestAddNewImagePageController.cls" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Lightning Application Event" />
+        <option value="Lightning Component Event" />
+        <option value="Lightning Component" />
+        <option value="Lightning Controller" />
+        <option value="Lightning Helper" />
+        <option value="Apex Class" />
+        <option value="Lightning Style" />
+        <option value="Apex Unit Test Class" />
+        <option value="Apex Trigger" />
+        <option value="Apex Metadata" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\user\WebstormProjects\Test\GalleryApplication\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="moduleWorkspaceSettings">
+      <map>
+        <entry key="GalleryApplication">
+          <value>
+            <ModuleWorkspaceSettings>
+              <option name="moduleContentsLastModified" value="1568800310343" />
+            </ModuleWorkspaceSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="apexLogLevel" value="FINEST" />
+            <option name="calloutsLogLevel" value="ERROR" />
+            <option name="nbaLogLevel" value="ERROR" />
+            <option name="profilingLogLevel" value="ERROR" />
+            <option name="systemLogLevel" value="FINEST" />
+            <option name="validationLogLevel" value="ERROR" />
+            <option name="visualforceLogLevel" value="FINE" />
+            <option name="waveLogLevel" value="ERROR" />
+            <option name="workflowLogLevel" value="ERROR" />
+          </AnonymousApexSettings>
+        </option>
+        <option name="connectionWorkspaceSettings">
+          <map>
+            <entry key="New Connection">
+              <value>
+                <ConnectionWorkspaceSettings>
+                  <option name="buildSuccessDatesBySourceRootRelativePath">
+                    <map>
+                      <entry key="APEXCLASS:ADDNEWIMAGEPAGECONTROLLER" value="1568730404056" />
+                      <entry key="APEXCLASS:GALLERYAPPLICATIONCONTROLLER" value="1568714446941" />
+                      <entry key="APEXCLASS:TESTADDNEWIMAGEPAGECONTROLLER" value="1568795244757" />
+                      <entry key="APEXCLASS:TESTGALLERYAPPLICATIONCONTROLLER" value="1568757872973" />
+                      <entry key="APEXCLASS:TESTVIEWIMAGEDETAILCONTROLLER" value="1568760796251" />
+                      <entry key="APEXCLASS:VIEWIMAGEDETAILCONTROLLER" value="1568759601509" />
+                      <entry key="AURADEFINITIONBUNDLE:ADDNEWIMAGEPAGE" value="1568795909927" />
+                      <entry key="AURADEFINITIONBUNDLE:FORTEST" value="1568672769396" />
+                      <entry key="AURADEFINITIONBUNDLE:GALLERYAPPLICATION" value="1568798831356" />
+                      <entry key="AURADEFINITIONBUNDLE:GALLERYAPPLICATIONEVENT" value="1568671935051" />
+                      <entry key="AURADEFINITIONBUNDLE:SMOTRIM" value="1568670262000" />
+                      <entry key="AURADEFINITIONBUNDLE:VIEWIMAGEDETAIL" value="1568796249615" />
+                    </map>
+                  </option>
+                </ConnectionWorkspaceSettings>
+              </value>
+            </entry>
+          </map>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QuXVDZwuUSKaKaJMyiHhmYt6SY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.forTest.app (3)">
+    <configuration name="forTest.app (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQOX6iKBDwSEkpX9xABqr8MsUo4O6fokC6.RFAMHVM0kcJzomCeZ0tKVtCZctpE0NboXsfVpPIuMRi0EqbFqIiz0450iE&amp;retURL=/c/forTest.app">
+      <method v="2" />
+    </configuration>
+    <configuration name="forTest.app (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQOX6iKBDwSEkpX9xABqr8MsUo4O6fokC6.RFAMHVM0kcJzomCeZ0tKVtCZctpE0NboXsfVpPIuMRi0EqbFqIiz0450iE&amp;retURL=/c/forTest.app">
+      <method v="2" />
+    </configuration>
+    <configuration name="forTest.app (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQOX6iKBDwSEkpX9xABqr8MsUo4O6fokC6.RFAMHVM0kcJzomCeZ0tKVtCZctpE0NboXsfVpPIuMRi0EqbFqIiz0450iE&amp;retURL=/c/forTest.app">
+      <method v="2" />
+    </configuration>
+    <configuration name="forTest.app (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQOX6iKBDwSEkpX9xABqr8MsUo4O6fokC6.RFAMHVM0kcJzomCeZ0tKVtCZctpE0NboXsfVpPIuMRi0EqbFqIiz0450iE&amp;retURL=/c/forTest.app">
+      <method v="2" />
+    </configuration>
+    <configuration name="forTest.app" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://onlineshop-dev-ed.my.salesforce.com/secur/frontdoor.jsp?sid=00D2v0000028Yy3!ARsAQOX6iKBDwSEkpX9xABqr8MsUo4O6fokC6.RFAMHVM0kcJzomCeZ0tKVtCZctpE0NboXsfVpPIuMRi0EqbFqIiz0450iE&amp;retURL=/c/forTest.app">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.forTest.app (3)" />
+        <item itemvalue="JavaScript Debug.forTest.app (2)" />
+        <item itemvalue="JavaScript Debug.forTest.app (1)" />
+        <item itemvalue="JavaScript Debug.forTest.app" />
+        <item itemvalue="JavaScript Debug.forTest.app (4)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a3c42cb-7eba-4926-94e5-b1e1395dc2b3" name="Default Changelist" comment="" />
+      <created>1568621476101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568621476101</updated>
+      <workItem from="1568621477283" duration="62000" />
+      <workItem from="1568621540368" duration="61000" />
+      <workItem from="1568621602264" duration="19653000" />
+      <workItem from="1568663725223" duration="15036000" />
+      <workItem from="1568707501741" duration="10389000" />
+      <workItem from="1568728196813" duration="5995000" />
+      <workItem from="1568756123045" duration="4880000" />
+      <workItem from="1568793616782" duration="6268000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GalleryApplication$TestAddNewImagePageController.null" NAME="New Connection Coverage Results" MODIFIED="1568795247349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="GalleryApplication" CONNECTION_NAME="New Connection" CONNECTION_TYPE="MDAPI" />
+  </component>
+</project>

@@ -1,0 +1,21 @@
+/**
+ * Created by user on 17-Sep-19.
+ */
+
+.THIS {
+}
+
+.THIS.my{
+    background: white;
+}
+
+.THIS.img {
+    max-width: 100%;
+    display: block;
+    position: absolute;
+    max-height: 100px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
