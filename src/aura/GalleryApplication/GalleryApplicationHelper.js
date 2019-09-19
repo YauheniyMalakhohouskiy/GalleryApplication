@@ -87,7 +87,7 @@
         var showingInGrid = component.get("v.paginationList");
         var searchKey = component.get("v.filter");
         if (showingInGrid != undefined || showingInGrid.length > 0) {
-            var filtereddata = allData.filter(word => (!searchKey) || word.Name.toLowerCase().indexOf(searchKey.toLowerCase()) > -1);
+            var filtereddata = allData.filter(word =>  word.Name.toLowerCase().indexOf(searchKey.toLowerCase()) > -1);
             console.log('** ' + filtereddata);
         }
         var pageSize = component.get("v.pageSize");

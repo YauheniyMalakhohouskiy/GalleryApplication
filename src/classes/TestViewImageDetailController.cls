@@ -10,7 +10,11 @@ private class TestViewImageDetailController {
         Document document = new Document(Name = 'Arsenal',FolderId = '0052v00000dEbiXAAS',Body = bodyBlob);
         insert document;
         ViewImageDetailController.changeNameImage(document,'aa');
-        document = [SELECT Name FROM Document];
+        document = [
+                SELECT
+                        Name
+                FROM    Document
+        ];
         System.assertEquals('aa',document.Name);
     }
 
@@ -22,7 +26,11 @@ private class TestViewImageDetailController {
         ViewImageDetailController.deleteImages(document);
         String exception1 = '';
         try {
-            document = [SELECT Name FROM Document];
+            document = [
+                    SELECT
+                            Name
+                    FROM    Document
+            ];
         } catch (QueryException e) {
             exception1 = e.getMessage();
         }
@@ -34,10 +42,17 @@ private class TestViewImageDetailController {
         Blob bodyBlob=Blob.valueOf('Unit Test Attachment Body');
         Document document = new Document(Name = 'Arsenal',FolderId = '0052v00000dEbiXAAS',Body = bodyBlob);
         insert document;
-        Document documentA = [SELECT Name FROM Document];
+        Document documentA = [
+                SELECT
+                        Name
+                FROM    Document
+        ];
         String fileName = 'Arsenal';
         Id id = ViewImageDetailController.saveChunk(fileName,documentA.Id,'Unit Test Attachment Body','jpg');
-        Document document1 = [SELECT Name FROM Document];
+        Document document1 = [
+                SELECT
+                        Name
+                FROM    Document];
 
         System.assertEquals('Arsenal',document1.Name);
     }

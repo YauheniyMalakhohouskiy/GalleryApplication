@@ -27,9 +27,12 @@ public with sharing class ViewImageDetailController {
         base64Data = EncodingUtil.urlDecode(base64Data, 'UTF-8');
 
         Document a = [
-                SELECT Id, Body,FolderId,Name
-                FROM Document
-                WHERE Id = :idMy
+                SELECT  Id,
+                        Body,
+                        FolderId,
+                        Name
+                FROM    Document
+                WHERE   Id = :idMy
         ];
         delete a;
         Document oAttachment = new Document();

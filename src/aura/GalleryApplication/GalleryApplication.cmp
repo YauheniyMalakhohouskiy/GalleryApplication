@@ -25,7 +25,7 @@
                     type="Integer"/>
     <aura:attribute name="pageSize"
                     type="Integer"
-                    default="5"/>
+                    default="12"/>
     <aura:attribute name="filter"
                     type="String"/>
     <aura:handler event="c:GalleryApplicationEvent"
@@ -58,16 +58,14 @@
         </div>
         </p>
     </lightning:card>
-    <div class="slds-grid  slds-align-content-center slds-gutters_xxx-small">
+    <div class="grid ">
         <aura:iteration items="{!v.paginationList}"
                         var="doc"
                         indexVar="i">
-            <div class="img slds-col--padded slds-small-size_1-of-6 ">
                 <img src="{!v.urlForImage + doc.Id + v.organizationId}"
                      onclick="{!c.viewDetail1}"
                      data-index="{!i}"
                      title="{!doc.Name}" />
-            </div>
         </aura:iteration>
     </div>
     <lightning:buttonGroup class="slds-align_absolute-center">
