@@ -90,6 +90,7 @@
         var eventMy = $A.get("e.c:GalleryApplicationEvent");
         eventMy.fire();
         component.destroy();
-    }
+    },
+
 
 });

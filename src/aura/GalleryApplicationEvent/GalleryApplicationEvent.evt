@@ -3,9 +3,4 @@
  -->
 
 <aura:event type="APPLICATION" description="GalleryApplicationEvent">
-    <aura:attribute name="Documents" type="List"/>
-    <aura:attribute name="image" type="Document"/>
-    <aura:attribute name="nameOfComponent" type="String"/>
-
-
 </aura:event>

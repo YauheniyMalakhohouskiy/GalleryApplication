@@ -30,8 +30,6 @@
                     type="String"/>
     <aura:handler event="c:GalleryApplicationEvent"
                   action="{!c.getEvents}"/>
-    <aura:handler event="force:refreshView"
-                  action="{!c.isRefreshed}"/>
 
     <lightning:card class="my slds-text-align--center"
                     title="Gallery Application"
@@ -65,7 +63,7 @@
                 <img src="{!v.urlForImage + doc.Id + v.organizationId}"
                      onclick="{!c.viewDetail1}"
                      data-index="{!i}"
-                     title="{!doc.Name}" />
+                     title="{!doc.Name}"/>
         </aura:iteration>
     </div>
     <lightning:buttonGroup class="slds-align_absolute-center">

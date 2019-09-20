@@ -23,6 +23,7 @@
     height: 200px;
 }
 
+
 .THIS.grid img:nth-child(1) {
     grid-column: span 1;
 }

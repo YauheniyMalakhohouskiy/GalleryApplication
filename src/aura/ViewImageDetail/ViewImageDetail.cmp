@@ -5,8 +5,6 @@
 <aura:component description="ViewImageDetail" controller="ViewImageDetailController">
     <aura:attribute name="image"
                     type="Document"/>
-    <aura:attribute name="documents"
-                    type="List"/>
     <aura:registerEvent name="GalleryApplicationEvent"
                         type="c:GalleryApplicationEvent"/>
     <aura:attribute name="showLoadingSpinner"

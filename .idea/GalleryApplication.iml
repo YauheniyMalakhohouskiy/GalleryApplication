@@ -223,6 +223,10 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="ForNewImageEvent" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="forTest" />
                             <option name="selected" value="true" />
                           </MetadataEntry>

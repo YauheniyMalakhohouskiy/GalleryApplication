@@ -159,5 +159,9 @@
                 }
             }
         );
+    },
+
+    getEvents:function (component,event) {
+        this.doInit1(component,event);
     }
 });
